@@ -47,6 +47,6 @@ public class BookController {
 		
 		model.addAttribute("msg", "Book Saved Successfully");
 		logger.info("*** saveBook () method execution end ***");
-		return "index";
+		return "success";
 	}
 }
